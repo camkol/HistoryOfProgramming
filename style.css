@@ -96,6 +96,7 @@ footer li {
   body header {
     padding: 0;
     text-align: center;
+    height: 77px;
   }
   body nav {
     top: 77px;
