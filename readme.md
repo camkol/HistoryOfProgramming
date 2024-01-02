@@ -11,3 +11,5 @@
 -Added SASS
 -Organized markup to prepare for future responsive design
 -Worked on images and made self-sufficient
+-Made Responsive
+-Improving responsiveness
