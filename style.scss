@@ -1,12 +1,16 @@
+$color_1: white;
+$color_2: black;
+$background-color_1: #0e0e0e;
+$background-color_2: white;
+
 header {
-  background-color: #0e0e0e;
-  color: white;
+  background-color: $background-color_1;
+  color: $color_1;
   padding: 5px;
   position: fixed;
   width: 100%;
   z-index: 2;
 }
-
 nav {
   text-align: right;
   margin-bottom: 10px;
@@ -14,36 +18,33 @@ nav {
   top: 87px;
   width: 100%;
   z-index: 2;
+  li {
+    display: inline-block;
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: $color_1;
+  }
 }
-nav li {
-  display: inline-block;
-  width: 60px;
-  padding: 5px;
-  text-align: center;
-}
-nav a {
-  text-decoration: none;
-  color: white;
-}
-
 p {
-  color: white;
+  color: $color_1;
   height: 200px;
   width: 200px;
   display: inline-block;
   margin: 0px 5%;
 }
-
 footer {
   height: 100px;
-  color: white;
+  color: $color_1;
   position: relative;
   top: 150px;
+  li {
+    display: inline;
+  }
 }
-footer li {
-  display: inline;
-}
-
 .container {
   text-align: center;
   max-width: 980px;
@@ -52,27 +53,25 @@ footer li {
   top: 120px;
   padding-top: 120px;
 }
-
 .date-square {
   width: 55px;
   height: 50px;
-  background-color: white;
+  background-color: $background-color_2;
   position: relative;
   bottom: 25px;
   display: inline-block;
   z-index: 1;
+  p {
+    color: $color_2;
+    width: 50px;
+    height: 30px;
+    background-color: $background-color_2;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 10px;
+  }
 }
-.date-square p {
-  color: black;
-  width: 50px;
-  height: 30px;
-  background-color: white;
-  text-align: center;
-  margin: 0;
-  position: relative;
-  top: 10px;
-}
-
 #logo {
   height: 100px;
   width: auto;
@@ -80,4 +79,4 @@ footer li {
   position: absolute;
   right: 5px;
   bottom: 5px;
-}/*# sourceMappingURL=style.css.map */
+}

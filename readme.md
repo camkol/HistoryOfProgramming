@@ -4,5 +4,9 @@
 
 1. HTML
 2. CSS
+   -SASS
 
 ## Notes
+
+-Added SASS
+-Organized markup to prepare for future responsive design
